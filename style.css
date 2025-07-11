@@ -1,0 +1,101 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+.fa-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background: #4b2d2a;
+  opacity: 0.7;
+  color: #fff;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  width: 1500px;
+}
+.fa-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.fa-background {
+  /* position: absolute; */
+  background-color: #fff;
+  /* height: 1700px; */
+  width: 1500px;
+}
+.fa-box {
+  margin: 0;
+}
+.fa-text {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  margin: 0 55px;
+}
+.blu-box {
+  background-color: #fff;
+  height: 35px;
+  width: 10px;
+  border-radius: 2px;
+  background-color: blue;
+  margin-right: 20px;
+}
+.fa-text p {
+  font-size: 28px;
+  margin-right: 10px;
+}
+.fa-row {
+  display: flex;
+  text-align: center;
+}
+.row {
+  margin: 0 50px;
+  text-align: left;
+  line-height: 1;
+  font-size: 18px;
+}
+.row img {
+  height: 500px;
+  width: 370px;
+}
+/* ----------------------------------access---------------------------- */
+.fa-text-access {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  font-size: 28px;
+}
+.fa-access {
+  margin: 0 55px;
+}
+.access-img img {
+  height: 460px;
+  width: 700px;
+}
+.access {
+  display: flex;
+}
+.access-text {
+  margin: 0 150px;
+  font-size: 24px;
+  line-height: 2;
+  cursor: pointer;
+}
+/* -----------------------footer-------------------------- */
+footer {
+  position: absolute;
+  margin: 10px 0;
+  width: 100%;
+  background: #4b2d2a;
+  opacity: 0.7;
+  text-align: center;
+  color: #fff;
+}
